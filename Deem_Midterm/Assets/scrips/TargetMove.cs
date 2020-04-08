@@ -9,18 +9,25 @@ public class TargetMove : MonoBehaviour
     {
 
 
+
+        //Rigidbody rb = gameObject.GetComponent<Rigidbody>();
+
+        //Vector3 direction = Vector3.RotateTowards(transform.forward, Vector3.zero, 0, 0);
+
+        //rb.AddForce(0, 0, speed, ForceMode.Force);
+
+
     }
-    [SerializeField] float speed = -2f;
+    private float speed = 0f;
+    [SerializeField] double temp = 0;
 
     // Update is called once per frame
     void Update()
     {
 
-        Rigidbody rb = gameObject.GetComponent<Rigidbody>();
+        speed = float.Parse(temp.ToString());
 
-        //Vector3 direction = Vector3.RotateTowards(transform.forward, Vector3.zero, 0, 0);
-
-        rb.AddForce(0,0,speed, ForceMode.Force);
+        gameObject.transform.Translate(0, 0, -speed, Space.World);
 
     }
 }

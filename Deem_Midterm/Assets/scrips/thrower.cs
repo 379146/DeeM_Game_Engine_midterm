@@ -14,16 +14,17 @@ public class thrower : MonoBehaviour
     {
 
         // GameObject[] junkarray = new GameObject[];
-        txt.text = "Balls Remaining: " + (Numberofshots - shotstaken).ToString() + "\nPoints: " + PlayerPoints.ToString();
+        //txt.text = "Balls Remaining: " + (Numberofshots - shotstaken).ToString() + "\nPoints: " + PlayerPoints.ToString();
 
 
     }
 
-    [SerializeField] GameObject projectile;
+    [SerializeField] GameObject projectile = null;
     [SerializeField] private float throwStrength = 20;
     [SerializeField] private float upwardArcInDegrees = 10;
     [SerializeField] private int Numberofshots = 20;
     private int shotstaken = 0;
+    public int ShotsRemaining = 20;
 
     //GameObject projectileNEW = null;
 
@@ -53,8 +54,8 @@ public class thrower : MonoBehaviour
             rb.AddForce(direction * throwStrength, ForceMode.Impulse);
 
             ++shotstaken;
-            txt.text = "Balls Remaining: " + (Numberofshots - shotstaken).ToString() + "\nPoints: " + PlayerPoints.ToString();
-
+            //txt.text = "Balls Remaining: " + (Numberofshots - shotstaken).ToString() + "\nPoints: " + PlayerPoints.ToString();
+            ShotsRemaining = (Numberofshots - shotstaken);
         }
     }
 
