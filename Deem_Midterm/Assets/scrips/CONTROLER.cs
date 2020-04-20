@@ -18,21 +18,16 @@ public class CONTROLER : MonoBehaviour
     [SerializeField] private GameObject ENDSCREENOBJECT;
 
 
-
-    // Start is called before the first frame update
     void Start()
     {
 
         txt.text = "Balls Remaining: " + ShotsLeft.ToString() + "\nPoints: " + PlayerPoints.ToString();
-        //Debug.Log("GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG");
 
     }
 
     [SerializeField] GameObject SoundQue = null;
 
 
-
-    // Update is called once per frame
     void Update()
     {
 
@@ -51,13 +46,10 @@ public class CONTROLER : MonoBehaviour
         if (ShotsLeft == 0 && !ENDSCREENOBJECT.activeInHierarchy)
         {
 
-
             ENDSCREENOBJECT.SetActive(true);
 
 
             endtxt.text = "GAME OVER\nYOU HIT " + PlayerPoints.ToString() + " TARGETS\nTO TRY AGAIN PRESS ESC.";
-
-
 
 
             Quaternion randomRotation = Random.rotationUniform;
@@ -67,12 +59,10 @@ public class CONTROLER : MonoBehaviour
 
         }
 
-
         if (ShotsLeft == 0 )
         {
 
         }
-
 
 
 
@@ -81,10 +71,7 @@ public class CONTROLER : MonoBehaviour
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
-
         }
-
-
 
 
     }

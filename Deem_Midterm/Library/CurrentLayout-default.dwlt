@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 522}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1308
-  m_MinSize: {x: 911, y: 494}
-  m_MaxSize: {x: 22006, y: 14044}
+  m_MinSize: {x: 911, y: 472}
+  m_MaxSize: {x: 22006, y: 14022}
   vertical: 0
-  controlID: 49511
+  controlID: 139
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1971
     height: 1308
-  m_MinSize: {x: 634, y: 494}
-  m_MaxSize: {x: 18004, y: 14044}
+  m_MinSize: {x: 636, y: 472}
+  m_MaxSize: {x: 18006, y: 14022}
   vertical: 1
-  controlID: 49423
+  controlID: 31
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,8 +159,8 @@ MonoBehaviour:
     y: 0
     width: 1971
     height: 946
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -188,10 +188,10 @@ MonoBehaviour:
     y: 946
     width: 1971
     height: 362
-  m_MinSize: {x: 634, y: 272}
-  m_MaxSize: {x: 18004, y: 10022}
+  m_MinSize: {x: 636, y: 272}
+  m_MaxSize: {x: 18006, y: 10022}
   vertical: 0
-  controlID: 49424
+  controlID: 55
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,8 +211,8 @@ MonoBehaviour:
     y: 0
     width: 270
     height: 362
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -237,8 +237,8 @@ MonoBehaviour:
     y: 0
     width: 488
     height: 362
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -446,11 +446,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.1657945, y: 0.65781754, z: 0.15106717, w: -0.7192032}
     speed: 2
-    m_Value: {x: 0.16469222, y: 0.6579493, z: 0.15005848, w: -0.719348}
+    m_Value: {x: 0.1657708, y: 0.6577234, z: 0.15104556, w: -0.7191003}
   m_Size:
     m_Target: 2.2051084
     speed: 2
-    m_Value: 1.9051085
+    m_Value: 2.2051084
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 22c10300
-      m_LastClickedID: 246050
-      m_ExpandedIDs: 702dfeffc639feff043afeffa03afeffba3afeff5c49feff9249feff5c4afeff764afeffca82fefff683feff469dfeff0ea4feff78ceffff68fbffff203b0000b43b0000023c0000fe3e00008c3f00008c050200044502002e45020034490200124a0200a8c00300d2c00300
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: fef2ffff64fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -576,14 +576,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: G:\WORKSPACE\UNITYSTUFF\MIDTERM WORKING STATION\Deem_Midterm
+  m_LastProjectPath: G:\GitHub\Repos\GES_2020\DeeM_Game_Engine_midterm\Deem_Midterm
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce330000
-    m_LastClickedID: 13262
-    m_ExpandedIDs: 00000000fe2c0000a82d0000463500007838000000ca9a3b
+    m_SelectedIDs: fe330000
+    m_LastClickedID: 13310
+    m_ExpandedIDs: 00000000262d0000d22d000076350000a838000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -611,7 +611,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fe2c0000a82d0000463500007838000000ca9a3b
+    m_ExpandedIDs: 00000000262d0000d22d000076350000a8380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

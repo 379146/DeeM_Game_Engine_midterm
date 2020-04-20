@@ -7,7 +7,6 @@ public class HONK_TIME : MonoBehaviour
     [SerializeField] GameObject SoundQue = null;
 
 
-
     private void OnCollisionEnter(Collision collision)
     {
         GameObject other = collision.gameObject;
@@ -15,8 +14,6 @@ public class HONK_TIME : MonoBehaviour
 
         if (other.CompareTag("Ball"))
         {
-
-
 
             Quaternion randomRotation = Random.rotationUniform;
 

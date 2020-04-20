@@ -56,7 +56,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MainMenu.cs" />
-     <Compile Include="Assets\scrips\AudioManager.cs" />
      <Compile Include="Assets\scrips\BALL.cs" />
      <Compile Include="Assets\scrips\CollisionTracker.cs" />
      <Compile Include="Assets\scrips\CONTROLER.cs" />
@@ -64,8 +63,6 @@
      <Compile Include="Assets\scrips\HONK_TIME.cs" />
      <Compile Include="Assets\scrips\MouseLook_1.cs" />
      <Compile Include="Assets\scrips\noisetime.cs" />
-     <Compile Include="Assets\scrips\Sound.cs" />
-     <Compile Include="Assets\scrips\TargetMove.cs" />
      <Compile Include="Assets\scrips\thrower.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -86,31 +83,31 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>G:/WORKSPACE/UNITYSTUFF/MIDTERM WORKING STATION/Deem_Midterm/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>G:/GitHub/Repos/GES_2020/DeeM_Game_Engine_midterm/Deem_Midterm/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>G:/UNITY/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
