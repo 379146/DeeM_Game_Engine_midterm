@@ -7,7 +7,7 @@ public class CollisionTracker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        TrackerObject = GameObject.FindWithTag("trackertag");
     }
 
     // Update is called once per frame
@@ -16,9 +16,9 @@ public class CollisionTracker : MonoBehaviour
         
     }
 
-    [SerializeField] private GameObject TrackerObject = GameObject.FindWithTag("trackertag");
+    private GameObject TrackerObject;
 
-    
+
 
 
     // [SerializeField] GameObject cloudParticles;
@@ -41,11 +41,17 @@ public class CollisionTracker : MonoBehaviour
             //ContactPoint contact = collision.GetContact(0);
             //Instantiate(cloudParticles, contact.point, cloudParticles.transform.rotation);
 
-            //CONTROLER ControllerObject = TrackerObject.GetComponent<CONTROLER>();
+            CONTROLER ControllerObject = TrackerObject.GetComponent<CONTROLER>();
 
-            //++ControllerObject.PlayerPoints;
+            ++ControllerObject.PlayerPoints;
 
             //++TrackerObject.GetComponent<CONTROLER>().PlayerPoints;
+
+
+
+            FindObjectOfType<AudioManager>().Play("TARGETHIT");
+
+
 
             Destroy(gameObject);
         }
